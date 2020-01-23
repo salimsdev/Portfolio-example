@@ -218,6 +218,9 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 
         .award-1 {
@@ -324,6 +327,7 @@ img {
             .message-input {
                 grid-area: message;
                 height: 100px;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             .text-input {
